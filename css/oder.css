@@ -166,3 +166,25 @@ float: right;
     }
 
 }
+
+/*----------------------------------Slider CSS ---------------------------------*/
+.slider 
+{
+    width: 85%;
+    height:50%;
+    margin-left: 15%;
+    padding: 0 10px;
+}
+.carousel {
+box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5)
+}
+.carousel-indicators {
+    z-index: 1 !important;
+}
+
+@media only screen and (max-width: 980px) {
+    .slider{
+        width: 100%;
+        margin-left: 0;
+    }
+}
