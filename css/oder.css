@@ -106,3 +106,30 @@ float: right;
     z-index: 2;
     background-color: #ddd;
 }
+.side-menu ul {
+    margin-left: 10px;
+}
+.side-menu ul li {
+    list-style: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.side-menu ul li:hover {
+    color: orange;
+}
+.side-menu ul li ul  {
+    display: none;
+    z-index: 10;
+    top: 77px;
+}
+.side-menu ul li:hover ul 
+{
+    display: block;
+    height: 400px;
+    margin-left: 14%;
+    padding: 0 100px 10px 10px;
+    position: fixed;
+    background: #ececec;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
