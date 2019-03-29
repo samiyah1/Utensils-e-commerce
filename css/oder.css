@@ -99,7 +99,7 @@ float: right;
 /*---------------------Side Menu------------------------*/
 .side-menu
 {
-    height: 79%;
+    height: 83%;
     width: 15%;
     font-size: 14px;
     float: left;
@@ -181,10 +181,48 @@ box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5)
 .carousel-indicators {
     z-index: 1 !important;
 }
-
 @media only screen and (max-width: 980px) {
     .slider{
         width: 100%;
         margin-left: 0;
     }
+}
+
+/*---------------------------------featured-categories css ---------------------------------------------*/
+
+.featured-categories {
+    margin: 50px 0;
+}
+.featured-categories img{
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.featured-categories img:hover{
+    transform:scale(1.1);
+}
+/*---------------------------On Sale products css-------------------*/
+.title-box {
+    background: orange;
+    color: #fff;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-top: -150px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.title-box h3 {
+    font-size: 24px;
+}
+
+.title-box::after{
+    content: '';
+    border-top: 40px solid orange;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
 }
