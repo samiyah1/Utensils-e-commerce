@@ -95,3 +95,14 @@ float: right;
 
     }
 }
+ 
+/*---------------------Side Menu------------------------*/
+.side-menu
+{
+    height: 79%;
+    width: 15%;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background-color: #ddd;
+}
